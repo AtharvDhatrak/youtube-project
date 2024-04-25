@@ -83,7 +83,7 @@ process.env.ACCEES_TOKEN_SECRET{
 
 expiresIn:process.env.ACEESS_TOKEN_EXPIRY
 
-}
+},
 
 userschema.methods.generateRefreshtoken=async function(){
     jwt.sign({
