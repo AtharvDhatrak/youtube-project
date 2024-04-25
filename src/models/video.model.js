@@ -35,7 +35,7 @@ default:true
 },
 
 owner:{
-type=Schema.Type.ObjectId,
+type:Schema.Type.ObjectId,
 ref:"user"
 },
 
