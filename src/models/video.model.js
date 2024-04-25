@@ -25,7 +25,7 @@ duration:{
 },
 
 views:{
-    type:Number;
+    type:Number,
     default: 0
 },
 
