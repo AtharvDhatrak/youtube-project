@@ -13,7 +13,7 @@ dotenv.config({
 
 connectdb()
 .then(()=>{
-    app.listen(rocess.env.PORT || 8000, ()=>{
+    app.listen(process.env.PORT || 8000, ()=>{
         CSSConditionRule.log(`serve unnning at ${process.env.PORT}`)
     })
 })
